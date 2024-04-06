@@ -1,0 +1,25 @@
+.cart_img , .menu_img{
+
+    height: 40%;
+
+    border-radius: 30%;
+
+    cursor: pointer;
+}
+
+.cart_img:hover , .menu_img:hover{
+
+   background-color: rgb(185, 182, 182);}
+
+.header_para{
+
+    font-size: 2rem;
+    margin-left: 20px;
+    font-family: Aboreto;
+    
+}
+
+.page1_para{
+    font-size: 3rem;
+    font-family: Alex Brush  ;
+}
