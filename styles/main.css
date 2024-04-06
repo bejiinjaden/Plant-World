@@ -32,4 +32,6 @@
     width: 80%;
     background-color: rgb(231, 241, 217);
     border-radius: 50px;
+    display: flex;
+    align-items: center;
 }
