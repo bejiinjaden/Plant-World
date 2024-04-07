@@ -27,12 +27,20 @@
     justify-content: space-evenly;
 }
 
-.plants_display{
-    height: 70%;
-    width: 80%;
-    background-color: rgb(231, 241, 217);
-    border-radius: 50px;
+.plants_display {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 30px; /* Adjust based on your design preference */
+    overflow-x: auto;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    padding: 20px; /* Adds some padding inside the scroll container */
+    flex-wrap: wrap; /* Prevents the items from wrapping */
+    background-color: rgb(231, 241, 217);
+    height: 60%;
+    width: 80%;
+    border-radius: 100px;
+}
+
+.page2{
+    height: 100vh;
 }
