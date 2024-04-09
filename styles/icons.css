@@ -11,6 +11,9 @@
 
    background-color: rgb(185, 182, 182);}
 
+   
+
+  
 .company_name{
 
     font-size: 2rem;
@@ -63,5 +66,10 @@
 
 .fa-brands:hover{
     color: rgb(74, 122, 7);
+    cursor: pointer;
+}
+
+.buy_btn{
+    padding: 8% 15%;
     cursor: pointer;
 }

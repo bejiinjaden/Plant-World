@@ -36,7 +36,6 @@ let products = [
 
  },
 
- 
 
 ];
 
@@ -70,3 +69,15 @@ producthtml+= `<div class="product">
 document.querySelector('.plants_display').innerHTML = producthtml;
 
 
+let menu = document.querySelector('.menu_img');
+
+menu.addEventListener("click" , () => {
+
+   if(!document.querySelector('.content_dropdown').classList.contains("display_dropdown")){
+      document.querySelector('.content_dropdown').classList.add("display_dropdown");
+
+   }else{
+      document.querySelector('.content_dropdown').classList.remove("display_dropdown");
+   }
+
+})
