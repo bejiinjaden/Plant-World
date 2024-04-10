@@ -1,0 +1,290 @@
+ /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .company_name{
+     font-size: 1rem;
+    }
+     
+    .header_div{
+     gap: 20px;
+     margin-right: 10px;
+ }
+ 
+ .page1_para{
+     font-size: 1.5rem;
+     font-family: Alex Brush  ;
+ }
+ 
+ .plant_img{
+     width: 90%;
+     height: 60%;
+ }
+ 
+ .product{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-evenly;
+     height: 42%;
+     width: 33%;
+     margin-left: 30px;
+     border: 1px solid;
+     border-radius: 15%;
+     font-family:Aboreto , Arial, Helvetica, sans-serif;
+     transition: background-color 0.7s;
+     cursor: pointer;
+ }
+ 
+ .plants_display{
+     height: 70%;
+     width: 90%;
+ }
+ 
+ .plant_name p{
+     font-size: 0.6rem;
+ }
+ 
+ .plant_price{
+     font-size: 0.8rem;
+ }
+ 
+ .page2_heading{
+     font-size: 1.5rem;
+ }
+ 
+ .page2_para{
+     font-size: 0.7rem;
+ }
+ 
+ .fa-brands{
+     font-size: 1.5rem;
+     transition: color 0.3s;
+     z-index: 3;
+     
+ }
+ 
+ .footer{
+   height: 10vh;
+ }
+ 
+ .social_media_footer{
+   flex-direction: row;
+ }
+ 
+   }
+
+   @media (min-width:400px) and (max-width: 412px){
+    .buy_btn{
+      padding: 4vw 5vw;
+    }
+
+    .page2_para{
+      font-size: 0.8rem;
+    }
+
+    .page2_heading{
+      font-size: 1.8rem;
+    }
+   }
+ 
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .company_name{
+      font-size: 1rem;
+     }
+      
+     .header_div{
+      gap: 20px;
+      margin-right: 10px;
+  }
+  
+  .page1_para{
+      font-size: 1.5rem;
+      font-family: Alex Brush  ;
+  }
+  
+  .plant_img{
+      width: 90%;
+      height: 60%;
+  }
+  
+  .product{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      height: 42%;
+      width: 33%;
+      margin-left: 30px;
+      border: 1px solid;
+      border-radius: 15%;
+      font-family:Aboreto , Arial, Helvetica, sans-serif;
+      transition: background-color 0.7s;
+      cursor: pointer;
+  }
+  
+  .plants_display{
+      height: 70%;
+      width: 90%;
+  }
+  
+  .plant_name p{
+      font-size: 0.6rem;
+  }
+  
+  .plant_price{
+      font-size: 0.8rem;
+  }
+  
+  .page2_heading{
+      font-size: 1.5rem;
+  }
+  
+  .page2_para{
+      font-size: 0.7rem;
+  }
+  
+  .fa-brands{
+      font-size: 1.5rem;
+      transition: color 0.3s;
+      z-index: 3;
+      
+  }
+  
+  .footer{
+    height: 10vh;
+  }
+  
+  .social_media_footer{
+    flex-direction: row;
+  }
+    
+  }
+
+  /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .company_name{
+      font-size: 2rem;
+     }
+
+     .buy_btn{
+      padding: 3vw 6vw;
+     }
+      
+     .header_div{
+      gap: 20px;
+      margin-right: 10px;
+  }
+  
+  .page1_para{
+      font-size: 2.3rem;
+      font-family: Alex Brush  ;
+  }
+  
+  .plant_img{
+      width: 60%;
+      height: 60%;
+  }
+  
+  .product{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      height: 42%;
+      width: 33%;
+      margin-left: 10px;
+      border: 1px solid;
+      border-radius: 15%;
+      font-family:Aboreto , Arial, Helvetica, sans-serif;
+      transition: background-color 0.7s;
+      cursor: pointer;
+  }
+  
+  .plants_display{
+      height: 70%;
+      width: 90%;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .plant_name p{
+      font-size: 1rem;
+  }
+  
+  .plant_price{
+      font-size: 1rem;
+  }
+  
+  .page2_heading{
+      font-size: 2.5rem;
+  }
+  
+  .page2_para{
+      font-size: 1.2rem;
+  }
+  
+  .fa-brands{
+      font-size: 2.3rem;
+      transition: color 0.3s;
+      z-index: 3;
+      
+  }
+  
+  .footer{
+    height: 10vh;
+  }
+  
+  .social_media_footer{
+    flex-direction: row;
+
+  }
+
+
+    
+  }
+  
+
+ 
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+
+
+
+
+ /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
